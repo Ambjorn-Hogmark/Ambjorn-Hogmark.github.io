@@ -1,14 +1,16 @@
-#header-box{
-    padding-top: 35vh;
+@media screen and (min-width: 800px) {
+    #content-box{
+        margin: 0 15%;
+    }
+    
 }
 
+#header-box{
+    padding-top: 35vh;
+    min-height: 100vh;
+}
 
-
-
-
-
-
-
-
-
+.column-shadow{
+    box-shadow: inset 0px 0px 10px
+}
 
