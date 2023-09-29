@@ -2,42 +2,70 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ambjörns Hemsida</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
-<body class="bg-dark">
+<body class="bg-dark px-3">
 	<div id="content-box">
-		<div id="header-box" class="container-sm px-3">
-			<div>
+		<div id="header-box" class="container-sm justify-content-between d-flex flex-wrap px-3 mb-5">
+			<div class="introduction-box">
 				<h1 class="display-1 text-light">Ambjörn <br> Hogmark</h1>
-				<p class="text-light fs-6">
-					Im a 19 year old student interessted in programming and web development
+				<p class="text-grey fs-6">
+					19 year old student with an interest for programming and web development. I enjoy working with others and to expand my knowledge through new and challenging projects.
 				</p>
+			</div>
+			<div>
+				<img class="img-fluid portrait-picture" src="images/portrait-no-background.webp" alt="Portrait of Ambjörn">
 			</div>
 		</div>
 
-		<div class="row gx-5 text-center text-dark">
-			<div class="col column-shadow">
-				<div class="bg-light rounded pt-3">
-					<h2 class="h2">My education</h2>
-					<p>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-						Laboriosam obcaecati temporibus, accusantium maxime, doloribus hic laborum f
-						acere consequuntur, ex unde alias quis! Dolore dolor ipsum facere nihil quae nemo odit!
-					</p>
+
+		<div class="education-box mb-5">
+			<h1 class="h1 text-light text-center mb-4">Education</h1>
+			<h2 class="h3 text-light">NTI Gymnasiet</h3>
+			<p class="fs-6 text-grey">(2023-ongoing)</p>
+			<p class="fs-5 text-grey"> 
+				One year extension  for the technology programme focusing on software design
+			</p>
+			<hr class="text-grey">
+			<div class="">
+				<h2 class="h3 text-light">Högbergsskolan, <span class="fs-5">Technology programme</span></h3>
+				<p class="fs-6 text-grey">(2020-2023)</p>
+				<p class="fs-5 text-grey">Technology programme in upper secondary school oriented towards production and design</p>
+			</div>
+		</div>
+		<div> 
+			<h1 class="h1 text-light text-center mb-4">Experience with</h1>
+			<ul>
+				<li>Python</li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Bootstrap 5</li>
+				<li>Git/GitHub</li>
+			</ul>
+		</div>
+
+		<h1 class="h1 text-light text-center mb-4">Projects</h1>
+		<div class="d-flex gap-5 flex-wrap justify-content-between">
+			<div class="card project-cards">
+				<img src="images/florist_blaklinten.webp" class="card-img-top" alt="Picture of the website Florist Blåklinten">
+				<div class="card-body">
+				  <h5 class="card-title">Florist Blåklinten</h5>
+				  <p class="card-text">A website made for the fictional company Florist Blåklinten. This project was part as a part of my </p>
+				  <a href="https://ntig-uppsala.github.io/blaklinten/" target="_blank" class="btn btn-primary">View project</a>
 				</div>
 			</div>
-			<div class="col column-shadow">
-				<div class="bg-light rounded pt-3">
-					<h2 class="h2">My knowledge</h2>
-					<p>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-						Laboriosam obcaecati temporibus, accusantium maxime, doloribus hic laborum f
-						acere consequuntur, ex unde alias quis! Dolore dolor ipsum facere nihil quae nemo odit!
-					</p>
+			<div class="card project-cards">
+				<img src="images/nfc_scanner.webp" class="card-img-top" alt="Picture of NFC-scanner project">
+				<div class="card-body">
+				  <h5 class="card-title">NFC tag scanner</h5>
+				  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  <a href="#" class="btn btn-primary">View project</a>
 				</div>
 			</div>
-		</div> 
+		</div>
+	</div>
 </body>
 </html>
