@@ -42,3 +42,7 @@
     max-width: 300px;
     margin: auto;
 }
+
+.email-break{
+    word-break: break-all;
+}
